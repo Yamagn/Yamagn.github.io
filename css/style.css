@@ -1,6 +1,17 @@
-body p {
-  font-size: 100px;
-  font-weight: bold;
-  font-family: sans-serif;
+div {
   text-align: center;
+}
+
+.icon {
+  border-radius: 30px;
+}
+
+.name {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.discription {
+  font-size: 20px;
+  margin: 20px;
 }
