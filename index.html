@@ -13,23 +13,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <nav class="uk-navbar-container" uk-navbar>
-      <div class="uk-navbar-right">
-        <ul class="uk-navbar-nav">
-          <li>
-            <a uk-icon="menu"></a>
-            <div class="uk-navbar-dropdown">
-              <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li><a href="#aboutme" uk-scroll>About Me</a></li>
-                <li><a href="#skills" uk-scroll>Skills</a></li>
-                <li><a href="#history" uk-scroll>History</a></li>
-                <li><a href="#products" uk-scroll>Products</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav> 
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+      <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;">
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li>
+              <a uk-icon="menu"></a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#aboutme" uk-scroll>About Me</a></li>
+                  <li><a href="#skills" uk-scroll>Skills</a></li>
+                  <li><a href="#history" uk-scroll>History</a></li>
+                  <li><a href="#products" uk-scroll>Products</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav> 
+    </div>
+    
     <header class="uk-background-primary uk-padding uk-light" id="aboutme">
       <div class="uk-text-center">
         <img class="uk-margin-top uk-border-circle" data-src="img/ymgn.jpg" width="200" height="200" uk-img>
