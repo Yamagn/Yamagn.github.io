@@ -10,7 +10,7 @@
     <script src="js/uikit-icons.min.js"></script>
   </head>
   <body>
-    <div class="uk-padding">
+    <!-- <div class="uk-padding">
       <div class="uk-card uk-card-large uk-card-default uk-card-body uk-width-1-1@m">
         <div class="uk-height-medium uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="img/bg.jpg" uk-img>
           <div class="uk-text-center">
@@ -20,8 +20,66 @@
           <img class="uk-align-center" src="img/mark_koujichu.png" height="200" width="200" alt="">
         </div>
       </div>
+    </div> -->
+    <nav class="uk-navbar-container" uk-navbar  >
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+          <li>
+            <a uk-icon="menu"></a>
+            <div class="uk-navbar-dropdown">
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li>
+                      <a href="#aboutme" uk-scroll>about me</a>
+                      <a href="#achievements" uk-scroll>achievements</a>
+                      <a href="#products" uk-scroll>products</a>
+                      <a href="#willbe" uk-scroll>will be</a>
+                  </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="uk-background-primary uk-padding uk-light" id="aboutme">
+      <div  class="uk-text-center">
+        <img class="uk-margin-top uk-border-circle" data-src="img/ymgn.jpg" width="200" height="200" uk-img>
+        <article class="uk-article uk-margin-top uk-margin-bottom">
+          <h2 class="uk-article-title">山元 賢也(ﾔﾏｹﾞﾝ)</h2>
+          <p class="uk-article-meta">2000年6月20日生まれ</p>
+          <p class="uk-article-meta">豊田工業高等専門学校 情報工学科 所属</p>
+          <p class="uk-text-lead">
+            明日から本気出す
+          </p>
+          
+        </article>
+        <div class="uk-flex uk-flex-center uk-flex-middle">
+          <a href="https://twitter.com/ymgn_bass" target="_blank" uk-icon="twitter"></a>
+          <a href="https://github.com/yamagn" target="_blank" uk-icon="github" class="uk-margin-left"></a>
+          <a href="https://www.facebook.com/KenyaYamamoto0620" target="_blank" uk-icon="facebook" class="uk-margin-left"></a>
+          <a href="https://www.instagram.com/ymgnittc/" target="_blank" uk-icon="instagram" class="uk-margin-left"></a>
+        </div>
+      </div>
     </div>
     
+    <div id="achievements">
+      <h2 class="uk-heading-line uk-text-center uk-padding-large"><span>Achievements</span></h2>
+      <!-- 実績 -->
+      <div >
+
+      </div>
+    </div>
     
+    <div id="products">
+        <h2 class="uk-heading-line uk-text-center uk-padding-large"><span>Products</span></h2>
+      <!-- 作ったもの -->
+    </div>
+
+    <div id="willbe">
+        <h2 class="uk-heading-line uk-text-center uk-padding-large"><span>Will Be</span></h2>
+      <!-- これからのこと -->
+    </div>
+    <footer>
+
+    </footer>
   </body>
 </html>
