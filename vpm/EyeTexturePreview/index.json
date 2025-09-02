@@ -1,0 +1,23 @@
+{
+  "name": "Yamagen",
+  "id": "com.yamagen.eyetexturepreview",
+  "author" : "Yamagen",
+  "url": "https://Yamagn.github.io/vpm/EyeTexturePreview/index.json",
+  "packages": {
+    "com.yamagen.eyetexturepreview": {
+      "versions": {
+        "1.0.0": {
+            "name": "com.yamagen.eyetexturepreview",
+            "displayName": "Eye Texture Preview",
+            "version": "1.0.0",
+            "unity": "2022.3",
+            "author": {
+                "name": "Yamagen"
+            },
+            "description": "A simple preview tool for eye textures in Unity.",
+            "url": "https://github.com/Yamagn/EyeTexturePreview/releases/download/1.0.0/EyeTexturePreview_1.0.0.zip"
+        }
+      }
+    }
+  }
+}
