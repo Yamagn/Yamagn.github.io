@@ -1,0 +1,22 @@
+{
+  "name": "Yamagen Asset Labeling Tool",
+  "id": "com.yamagn.vpmrepo",
+  "url": "https://Yamagn.github.io/vpm/index.json",
+  "packages": {
+    "com.yamagen.assetlabeling": {
+      "versions": {
+        "1.0.0": {
+            "name": "com.yamagen.assetlabeling",
+            "displayName": "Asset Labeling",
+            "version": "1.0.0",
+            "unity": "2022.3.22f1",
+            "author": {
+                "name": "Yamagen"
+            },
+            "description": "A tool for labeling and filtering assets in the Unity Editor.",
+            "url": "https://github.com/Yamagn/AssetLabeling#v1.0.0"
+        }
+      }
+    }
+  }
+}
